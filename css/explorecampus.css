@@ -1,0 +1,348 @@
+*{
+	margin: 0px;
+	padding:0px;
+}
+.head{
+	position: relative;
+}
+.logo{
+	height: 150px;
+	width: 100%;
+	background-color: #283747;
+	position: relative;
+	
+}
+.logoimg{
+	height: 140px;
+	width: 140px;
+	border: 1px solid white;
+	border-radius: 50%;
+	overflow: hidden;
+	text-align: center;
+	margin-top: 7px;
+	display: inline-block;    
+	float: right;
+    margin-right: 30px;
+}
+.logotext{
+	display: inline-block;
+	margin-top: 12px;
+	margin-left: 379px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	position: absolute;
+}
+.logotext h1,p{
+	color: white;
+	font-size: 60px;
+	text-align: center;
+	display: inline-block;
+	font-family: "Times New Roman";
+}
+.logotext h1::before{
+	content: "U";
+	color: #B9770E;
+}
+.logotext p::before{
+	content: "P";
+	color:#B9770E;
+}
+.logotext h2{
+	color: white;
+	font-size: 45px;
+	text-align: center;
+	font-style: italic;
+}
+
+.logo-poly{
+	float: left;
+	width:333px; 
+	height:208px;
+	border-radius: 60%;
+	overflow: hidden;
+	margin-left: 30px;
+}
+.nav{
+	width: 100%;
+	height: 60px;
+	background-color: #283747;
+	margin: 0px;
+	position: absolute;
+	text-align: center;
+}
+.nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	background-color:#283747;
+	padding: 8px;
+}
+.nav ul li:hover{
+	background-color: #B9770E;
+}
+.nav-in {
+	display: none;
+	position: absolute;
+	margin-top: 8px;
+	opacity: .7;
+}
+.nav-in ul li {
+	width: 142px;
+    margin-left: -18px;
+    display: block;
+
+}
+.nav ul li:hover .nav-in{
+	display: block;
+} 
+.middle{
+	width: 100%;
+	background-color:#283747;
+}
+.image-slide{
+	width: 90%;
+	height: 500px;;
+	margin-top: 60px;
+	box-sizing: border-box;
+	text-align: center;
+	background-color: black;
+	margin-left: 5%;
+
+}
+.middle{
+	width: 100%;
+	background-color:#283747; 
+}
+.explorecampus{
+	width: 100%;
+	height: 1220px;
+	background-color: #021522;
+	border: 2px solid #B9770E;
+	border-radius: 10px;
+	margin-top: 13%;
+	display: inline-block;
+	text-align: center;
+}
+.explorecampus-head{
+	width: 455px;
+	height: 54px;
+	background-color: #021522;
+	color: #B9770E;
+	font-size: 30px;
+	border: 2px solid #B9770E;
+	border-radius: 4px;
+	margin-top: -29px;
+	margin-left: 49px;
+	text-align: center;
+}
+.explorecampus img{
+	margin-top: 20px;
+	width: 250px;
+	height: 200px;
+	padding: 5px;
+	filter: grayscale(100%);
+	transition: 1s;
+}
+.explorecampus img:hover{
+	filter: grayscale(0);
+	transform: scale(1.1);
+}
+
+
+
+.end{
+	width: 100%;
+	height: 500px;
+	background-color: #021522;
+}
+.about{
+	height: 500px;
+	width: 420px;
+	background-color: #021522;
+	display: inline-block;
+	margin-left: 15px;
+}
+.about-head{
+	height: 40px;
+	width: 60px;
+	background-color: #021522;
+	display: inline-block;
+	position: absolute;
+	color: #B9770E;
+	margin-top: 25px;
+}
+.about-con{
+	height: 260px;
+	width: 420px;
+	background-color: #021522;
+	color: white;
+	position: absolute;
+	margin-top: 85px;
+}
+.about-con p{
+	font-size: 20px;
+	text-align: left;
+}
+.followus-head{
+	position: absolute;
+	height: 40px;
+	width: 120px;
+	margin-top: 370px;
+	color: #B9770E;
+	background-color: #021522;
+	display: inline-block;
+}
+.followus-con{
+	position: absolute;
+	margin-top: 425px;
+	height: 60px;
+	width: 350px;
+	background-color: #021522;
+}
+.followus-con li{
+	list-style-type: none;
+	display: inline-block;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.contactForm{
+	height: 500px;
+	width: 470px;
+	background-color: #021522;
+	display: inline-block;
+}
+.contact-head{
+	height: 40px;
+	width: 120px;
+	background-color: #021522;
+	display: inline-block;
+	position: absolute;
+	color: #B9770E;
+	margin-top: 25px;
+}
+.conForm{
+	position: absolute;
+	width: 450px;
+	height: 380px;
+	background-color: #021522;
+	border: 2px solid #B9770E;
+	border-radius: 10px;
+	margin-top: 100px;
+	margin-left: 7px;
+}
+.conForm-head{
+	height: 36px;
+	width: 120px;
+	background-color: #021522;
+	border: 2px solid #B9770E;
+	margin-top: -21px;
+	margin-left: 15px;
+	color: white;
+	padding-top: 4px;
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+}
+.conForm form{
+	margin-top: 20px;
+	margin-left: 30px;
+}
+.conForm label{
+	font-size:20px;
+	color: white;
+}
+.conForm input[name=namef]{
+	width: 292px;
+	height: 30px;
+	resize: vertical;
+	box-sizing: border-box;
+	border-radius: 4px;
+	margin-bottom: 10px;
+}
+.conForm input[name=emailf]{
+	width: 386px;
+	height: 30px;
+	resize: vertical;
+	box-sizing: border-box;
+	border-radius: 4px;
+	margin-bottom: 10px;
+}
+.conForm textarea[name=messagef]{
+	width: 386px;
+	height: 155px;
+	box-sizing: border-box;
+	border-radius: 4px;
+}
+.conForm input[name=Submit]{
+	height: 40px;
+	width: 100px;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	background-color: #B9770E;
+	color: white;
+}
+.imp-links{
+	height: 500px;
+	width: 420px;
+	background-color: #021522;
+	display: inline-block;	
+}
+.conInfo{
+	width: 400px;
+	height: 197px;
+	background-color: #021522;
+	display: inline-block;
+	position: absolute;
+	margin-left: 10px;
+}
+.conInfo-head{
+	height: 40px;
+	width: 218px;
+	color: #B9770E;
+	background-color: #021522;
+	margin-top:25px; 
+}
+.conInfo-con{
+	width: 400px;
+	height: 126px;
+	background-color: #021522;
+	margin-top: 5px;
+	color: white;
+	border-bottom: 1px dotted #B9770E;
+}
+.conInfo-con p{
+	font-size: 20px;
+	text-align: left;
+}
+.important-links{
+	width: 400px;
+	height: 250px;
+	background-color: #021522;
+	display: inline-block;
+	position: absolute;
+	margin-left: 10px;
+	margin-top: 200px; 
+}
+.implink-head{
+	height: 40px;
+	width: 218px;
+	background-color: #021522;
+	color: #B9770E;
+	margin-top: 10px;
+}
+.implink-con{
+	width: 400px;
+	height: 200px;
+	background-color: #021522;
+	color: white;
+	margin-top: 5px;
+}
+.implink-con li{
+	list-style-type: none;
+	font-size: 18px;
+}
+.implink-con ul{
+	margin-left: 20px;
+}

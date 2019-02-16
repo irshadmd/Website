@@ -1,0 +1,9 @@
+admissions:https://www.jmi.ac.in/admissions
+youtube:https://www.youtube.com/channel/UCZOGZZ8jpsnBUffIL-47UZw
+facebook:https://www.facebook.com/jmiofficial
+admission results:http://jmi.ucanapply.com/gradecard/entrance/?app-id=UElZMDAwMDA0MA==
+student login:http://jmiregular.ucanapply.com/universitysystem/student/
+Guidelines for filling:https://s3-ap-southeast-1.amazonaws.com/ucanapply/jmi/Guidelines-JMI.pdf
+Aluimini association:https://www.jmi.ac.in/studyatjamia/alumnizone/newsupdates
+list of holidays:https://www.jmi.ac.in/bulletinboard/academic-calendar/list-of-holidays
+Complaints Committee:https://www.jmi.ac.in/bulletinboard/academic-calendar/list-of-holidays
